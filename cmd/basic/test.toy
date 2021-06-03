@@ -1,0 +1,12 @@
+
+
+func main() {
+    for var i = 0; i< 2; i=i+1 {
+        if i == 1 {
+            break
+        }
+        for var i = 0; i<3; i=i+1 {
+            print(i, " hello\n")
+        }
+    }
+}
